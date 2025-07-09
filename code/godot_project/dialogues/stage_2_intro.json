@@ -1,0 +1,19 @@
+{
+	"bgm": "res://assets/sounds/intro.ogg",
+	"dialogue": [
+		{
+			"text": "(그냥... 여자에 미친 사람이구나. 안타깝다...)",
+			"background": "res://assets/images/shared/background_main.png"
+		},
+		
+		{
+			"text": "(운동만 끝내고 얼른 나가자...)",
+			"background": "res://assets/images/shared/background_main.png"
+		},
+		
+		{
+			"text": "어?  처음 보는 얼굴이네~",
+			"background": "res://assets/images/shared/background_main.png"
+		}	
+	]
+}

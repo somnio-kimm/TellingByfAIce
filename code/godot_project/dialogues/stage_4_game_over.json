@@ -1,0 +1,20 @@
+{
+	"bgm": "res://assets/sounds/game_over.ogg",
+	"dialogue": [
+		{
+			"text": "너 같은 놈한테 이 닭가슴살은 사치야...",
+			"background": "res://assets/images/stage_4/angry.png"
+		},
+		
+		{
+			"text": "내",
+			"background": "res://assets/images/stage_4/angry.png"
+		},
+		
+		{
+			"text": "놔",
+			"background": "res://assets/images/stage_4/angry.png",
+			"end": true
+		}
+	]
+}

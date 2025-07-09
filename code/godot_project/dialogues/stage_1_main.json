@@ -1,0 +1,108 @@
+{
+	"bgm": "res://assets/sounds/battle_default.ogg",
+	"dialogue": [
+		{
+			"text": "어, 너 새로 왔지? 여기 회원들... 진짜 몸이 장난이 아니야!",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_1/default.png"
+		},
+
+		{
+			"text": "나? 트레이너 맞아. 근데... 그냥 운동만 하는 건 좀 심심하잖아?",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_1/happy.png"
+		},
+
+		{
+			"text": "하하! 누굴 가르치는 것도 좋지만, 관찰하는 재미도 있달까?",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_1/default.png"
+		},
+
+		{
+			"text": "어제 수업 중에 회원 한 명이 어깨를 만지더라고? 시그널인가?",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_1/happy.png",
+			"timer": true
+		},
+		
+		{
+			"text": "[표정을 응시한다.]",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_1/default.png",
+			"emotion_expected": "happy", 
+			"failure_text": "나 좋아하는 것 같아! 아니야? 아니냐고!",
+			"failure_background": "res://assets/images/shared/background_main.png",
+			"failure_character": "res://assets/images/stage_1/angry.png"
+		},
+
+		{
+			"text": "근데... 그 회원, 커플 운동 중이었대... 남자친구랑 말이야.",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_1/sad.png",
+			"timer": true
+		},
+
+		{
+			"text": "[표정을 응시한다.]",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_1/default.png",
+			"emotion_expected": "sad", 
+			"failure_text": "너 T야? 나 비웃는 거지!",
+			"failure_background": "res://assets/images/shared/background_main.png",
+			"failure_character": "res://assets/images/stage_1/angry.png"
+		},
+
+		{
+			"text": " 뭐... 오히려 좋아!",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_1/default.png",
+		},
+
+		{
+			"text": "오늘 새로운 회원이 왔거든! 몸 좋다고도 했어! 나한테 관심이 있는 것 같지?",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_1/default.png",
+			"timer": true
+		},
+
+		{
+			"text": "[표정을 응시한다.]",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_1/default.png",
+			"emotion_expected": "happy", 
+			"failure_text": " 내 몸을 무시해? 한번 내 대흉근과 대화해 볼래?",
+			"failure_background": "res://assets/images/shared/background_main.png",
+			"failure_character": "res://assets/images/stage_1/angry.png"
+		},
+
+		{
+			"text": "근데... 나한테 한 말이 아니었어...  관장님 얘기더라...",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_1/sad.png",
+			"timer": true
+		},
+
+		{
+			"text": "[표정을 응시한다]",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_1/default.png",
+			"emotion_expected": "sad", 
+			"failure_text": "웃어?",
+			"failure_background": "res://assets/images/shared/background_main.png",
+			"failure_character": "res://assets/images/stage_1/angry.png"
+		},
+		
+		{
+			"text": "괜찮아! 근육은 배신하지 않거든!",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_1/default.png"
+		},
+
+		{
+			"text": "자신감이 곧 근육! 근육이 곧 매력! 난 이제 다음 회원 만나러 간다~",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_1/default.png"
+		}
+	]
+}

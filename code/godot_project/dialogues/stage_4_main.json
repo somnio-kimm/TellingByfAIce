@@ -1,0 +1,159 @@
+{
+	"bgm": "res://assets/sounds/battle_boss.ogg",
+	"dialogue": [
+		{
+			"text": "하하하하하하 하하하하하하 하하하하하하",
+			"background": "res://assets/images/stage_4/default.png"
+		},
+
+		{
+			"text": "(뭐지...? 저건... 인간이 맞나?)",
+			"background": "res://assets/images/stage_4/default.png"
+		},
+		
+		{
+			"text": "하하하하하하 하하하하하하 하하하하하하",
+			"background": "res://assets/images/stage_4/default.png"
+		},
+
+		{
+			"text": "(비위 맞춰서 웃어줘야겠다...)",
+			"background": "res://assets/images/stage_4/default.png"
+		},
+
+		{
+			"text": "감히 최강을 공감하려 하는가!!!!!!!",
+			"background": "res://assets/images/stage_4/angry.png"
+		},
+
+		{
+			"text": "[※ 상황과 정반대의 표정을 지어야 보스를 클리어 할 수 있습니다! 목숨은 한 번 남았어요!]",
+			"background": "res://assets/images/stage_4/default.png"
+		},
+
+		{
+			"text": "목숨이 아깝지 않은 가 보군..",
+			"background": "res://assets/images/stage_4/angry.png"
+		},
+
+		{
+			"text": "(유산소 하러 왔는데 목숨까지...?)",
+			"background": "res://assets/images/stage_4/angry.png"
+		},
+
+		{
+			"text": "얼어 붙어 아무말도 못하는거냐!! 크하하하하하하",
+			"background": "res://assets/images/stage_4/default.png",
+			"timer": true
+		},
+
+		{
+			"text": "[표정을 응시한다.]",
+			"background": "res://assets/images/stage_4/angry.png",
+			"emotion_expected": "happy", 
+			"failure_text": "눈치나 보는 나약한놈... 단백질은 네놈에게 과분하다.",
+		},
+
+		{
+			"text": "내 앞에서 웃을 수 있다니 재미있는 놈이구나",
+			"background": "res://assets/images/stage_4/default.png",
+		},
+
+		{
+			"text": "날 대적할 상대는 내 아들 뿐이다.",
+			"background": "res://assets/images/stage_4/default.png"
+		},
+		
+		{
+			"text": "바킈... 라는 녀석이지...",
+			"background": "res://assets/images/stage_4/default.png"
+		},
+		{
+			"text": "창피한 얘기지만... 난 아들과의 싸움에서 비겼다...",
+			"background": "res://assets/images/stage_4/default.png",
+		},
+		{
+			"text": "이런 내가 한심해 보이는가...?",
+			"background": "res://assets/images/stage_4/default.png",
+			"timer": true
+		},
+
+		{
+			"text": "[표정을 응시한다.]",
+			"background": "res://assets/images/stage_4/angry.png",
+			"emotion_expected": "happy", 
+			"failure_text": "네게 동정 받을 정도로 약하지 않다! 발끝으로 매달리지 못하는 자... 한심하군."
+		},
+
+		{
+			"text": "(어떤 아들이길래... 저런 사람과 비긴다는 거지...?)",
+			"background": "res://assets/images/stage_4/default.png"
+		},
+		
+		{
+			"text": "여자친구랑 있다가 나한테 걸린 적이 있지... 후후!",
+			"background": "res://assets/images/stage_4/default.png"
+		},
+		
+		{
+			"text": "같이 놀자고 하니 기겁을 하더군. 애비 마음도 모르고 말이야!",
+			"background": "res://assets/images/stage_4/default.png"
+		},
+		
+		{
+			"text": "나 같은 아빠가 있으면 얼마나 좋아! 그렇지 않나?",
+			"background": "res://assets/images/stage_4/default.png",
+			"timer": true
+		},
+
+		{
+			"text": "[표정을 응시한다.]",
+			"background": "res://assets/images/stage_4/angry.png",
+			"emotion_expected": "sad", 
+			"failure_text": "웃어? 부모님한테 잘 해, 임마!"
+		},
+		
+		{
+			"text": "(눈치가 없는 아빠가 확실하다.)",
+			"background": "res://assets/images/stage_4/default.png"
+		},
+		
+		{
+			"text": "너 좀전에 웃는 얼굴이 아주 매력적이군! 동안이란 소리 자주 듣지?",
+			"background": "res://assets/images/stage_4/default.png",
+			"timer": true
+		},
+
+		{
+			"text": "[표정을 응시한다.]",
+			"background": "res://assets/images/stage_4/angry.png",
+			"emotion_expected": "sad", 
+			"failure_text": "이 나를 앞에 두고 웃다니 건방진 녀석!!",
+		},
+
+		{
+			"text": "이런 보잘 것 없는 도시에서 꽤 쓸만한 놈을 만났군.",
+			"background": "res://assets/images/stage_4/default.png",
+		},
+
+		{
+			"text": "넌 더 강해질거다.",
+			"background": "res://assets/images/stage_4/default.png",
+		},
+
+		{
+			"text": "(... 공원에서 저러고 있으면 안잡아가나...?)",
+			"background": "res://assets/images/stage_4/default.png",
+		},
+		
+		{
+			"text": "(엇, 사라졌다)",
+			"background": "res://assets/images/stage_4/background.png",
+		},
+
+		{
+			"text": "(피곤하다... 그냥 집이나 가자.)",
+			"background": "res://assets/images/stage_4/background.png",
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"bgm": "res://assets/sounds/intro.ogg",
+	"dialogue": [
+		{
+			"text": "(요즘 집에 틀어박혀 코드만 짜다 보니, 운동을 너무 안 하게 됐어...)",
+			"background": "res://assets/images/shared/background_title.png",
+		},
+		
+		{
+			"text": "(몸이 건강해야 일도 잘되지... 헬스장 등록부터 해야겠다.)",
+			"background": "res://assets/images/shared/background_title.png",
+		}
+	]
+}

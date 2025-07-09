@@ -1,0 +1,74 @@
+{
+	"bgm": "res://assets/sounds/ending.ogg",
+	"dialogue": [
+		{   
+			"text": " ",
+			"background": "res://assets/images/ending/1.png"
+		},
+
+		{
+			"text": " ",
+			"background": "res://assets/images/ending/2.png"
+		},
+		
+		{
+			"text": " ",
+			"background": "res://assets/images/ending/3.png"
+		},
+		
+		{
+			"text": " ",
+			"background": "res://assets/images/ending/4.png"
+		},
+		
+		{
+			"text": " ",
+			"background": "res://assets/images/ending/5.png"
+		},
+		
+		{
+			"text": " ",
+			"background": "res://assets/images/ending/6.png"
+		},
+		
+		{
+			"text": " ",
+			"background": "res://assets/images/ending/7.png"
+		},
+
+		{
+			"text": "(후... 오늘은 이쯤 할까)",
+			"background": "res://assets/images/ending/7.png"
+		},
+		
+		{
+			"text": "(이 헬스장 다닌지도 벌써 1년이네)",
+			"background": "res://assets/images/ending/7.png"
+		},
+
+		{
+			"text": "(이 정도 몸이면 바디 프로필을 찍어도 되겠어)",
+			"background": "res://assets/images/ending/7.png"
+		},
+
+		{
+			"text": "(집이나 가자)",
+			"background": "res://assets/images/ending/7.png"
+		},
+		
+		{
+			"text": " ",
+			"background": "res://assets/images/ending/8.png"
+		},
+		
+		{
+			"text": "(우편이 왔네?)",
+			"background": "res://assets/images/ending/9.png"
+		},
+		
+		{
+			"text": "(어......?)",
+			"background": "res://assets/images/ending/10.png",
+		}
+	]
+}

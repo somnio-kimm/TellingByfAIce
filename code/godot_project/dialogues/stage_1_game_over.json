@@ -1,0 +1,15 @@
+{
+	"bgm": "res://assets/sounds/game_over.ogg",
+	"dialogue": [
+		{
+			"text": "몸 관리 좀 하지 그래? 멋진 몸이 매력인 시대라고~",
+			"character": "res://assets/images/stage_1/game_over.png",
+		},
+		
+		{
+			"text": "그 몸으론... 데이트는 좀 어렵겠는걸?",
+			"character": "res://assets/images/stage_1/game_over.png",
+			"end": true
+		}
+	]
+}

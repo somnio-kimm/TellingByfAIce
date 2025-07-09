@@ -1,0 +1,104 @@
+{
+	"bgm": "res://assets/sounds/battle_default.ogg",
+	"dialogue": [
+		{
+			"text": "헉... 두 개... 으응...",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_3/default.png",
+			
+		},
+		{
+			"text": "(위험하다... 너무 위험하다... 가까이 가지도 말자...)",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_3/default.png"
+		},
+
+		{
+			"text": "거기... 너... 하체... 해라...",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_3/default.png",
+			"timer": true
+		},
+
+		{
+			"text": "[표정을 응시한다.]",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_3/angry.png",
+			"emotion_expected": "happy", 
+			"failure_text": "내가... 도와주겠다..."
+		},
+
+
+		{
+			"text": "나... 간수치... 800.",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_3/default.png",
+			"timer": true
+		},
+
+		{
+			"text": "[표정을 응시한다.]",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_3/angry.png",
+			"emotion_expected": "sad", 
+			"failure_text": "비웃지... 마라... 멸치..."
+		},
+
+		{
+			"text": "내... 다리... 만져 보겠나…",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_3/default.png",
+			"timer": true
+		},
+
+		{
+			"text": "[표정을 응시한다.]",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_3/angry.png",
+			"emotion_expected": "happy", 
+			"failure_text": ".. 만져... 만져줘... 내... 근육..."
+		},
+
+		{
+			"text": "이제... 날 보조 해라...",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_3/default.png",
+			"timer": true
+		},
+
+		{
+			"text": "[표정을 응시한다.]",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_3/angry.png",
+			"emotion_expected": "happy", 
+			"failure_text": "쇠질... 진심으로... 대하라..."
+		},
+		
+		{
+			"text": "유산소.. 하는가...",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_3/default.png",
+			"timer": true
+		},
+
+		{
+			"text": "[표정을 응시한다.]",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_3/angry.png",
+			"emotion_expected": "happy", 
+			"failure_text": "으아아아아!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+		},
+
+		{
+			"text": "하아... 느끼고 있군...",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_3/angry.png"
+		},
+		
+		{
+			"text": "충분히... 느껴라... 난... 더 음미하러 간다...",
+			"background": "res://assets/images/shared/background_main.png",
+			"character": "res://assets/images/stage_3/angry.png"
+		}
+	]
+}

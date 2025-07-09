@@ -1,0 +1,19 @@
+{
+	"bgm": "res://assets/sounds/intro.ogg",
+	"dialogue": [
+		{
+			"text": "(...)",
+			"background": "res://assets/images/shared/background_main.png"
+		},
+		
+		{
+			"text": "(이곳에 더 있으면 아무것도 못 할 것 같다...)",
+			"background": "res://assets/images/shared/background_main.png"
+		},
+		
+		{
+			"text": "(그냥 나가서 걷자...)",
+			"background": "res://assets/images/shared/background_main.png"
+		}
+	]
+}

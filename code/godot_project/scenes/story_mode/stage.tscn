@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://wl01kgytkh80"]
+
+[ext_resource type="Script" uid="uid://cx0enk0e066eq" path="res://scripts/stage.gd" id="1_0sqxx"]
+[ext_resource type="PackedScene" uid="uid://mutmcwhiv111" path="res://scenes/story_mode/dialogue.tscn" id="2_jkb3p"]
+
+[node name="stage" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0sqxx")
+stage_index = 1
+
+[node name="dialogue" parent="." instance=ExtResource("2_jkb3p")]
+layout_mode = 1
+
+[node name="bgm_player" type="AudioStreamPlayer" parent="."]
+autoplay = true

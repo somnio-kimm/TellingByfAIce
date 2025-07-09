@@ -1,0 +1,131 @@
+{
+	"bgm": "res://assets/sounds/battle_default.ogg",
+	"dialogue": [
+		{
+			"text": "엇, 새로 오신 분인가?",
+			"background": "res://assets/images/shared/background_intro.png"
+		},
+		
+		{
+			"text": "Dgym에 잘 오셨습니다! 이 동네에 우리 집만큼 기구 좋고 가격 착한 곳 없어요~",
+			"background": "res://assets/images/stage_0/sitting_1.png"
+		},
+		
+		{
+			"text": "회원과 트레이너들이 조금 독특한 거 빼곤...",
+			"background": "res://assets/images/stage_0/sitting_2.png"
+		},
+		
+		{
+			"text": "여기 회원과 트레이너들은 말에 진심이야. 무시당하면 상처받는다고!",
+			"background": "res://assets/images/stage_0/sitting_3.png"
+		},
+		
+		{
+			"text": "나도 그랬다가... 하하, 아픈 기억이지.",
+			"background": "res://assets/images/stage_0/sitting_2.png"
+		},
+		
+		{
+			"text": "그래서 말할 때는 표정을 잘 지어야 해! 자, 한 번 테스트해 보자.",
+			"background": "res://assets/images/stage_0/sitting_1.png"
+		},
+		
+		{
+			"text": "자, 내 말이 끝나면 왼쪽 위에 타이머가 돌아갈 거야. 지금처럼!",
+			"background": "res://assets/images/shared/background_intro.png",
+			"character": "res://assets/images/stage_0/default.png",
+			"timer": true
+		},
+		
+		{
+			"text": "타이머가 끝나면, 내 말에 어울리는 표정을 지어줘야 해!",
+			"background": "res://assets/images/shared/background_intro.png",
+			"character": "res://assets/images/stage_0/default.png"
+		},
+		
+		{
+			"text": "우선 얼굴 근육부터 스트레칭해보자!",
+			"background": "res://assets/images/shared/background_intro.png",
+			"character": "res://assets/images/stage_0/happy.png"
+		},
+		
+		{
+			"text": "나처럼 기쁜 표정을 지어줘!",
+			"background": "res://assets/images/shared/background_intro.png",
+			"character": "res://assets/images/stage_0/happy.png",
+			"timer": true
+		},
+		
+		{
+			"text": "(표정을 응시한다.)",
+			"background": "res://assets/images/shared/background_intro.png",
+			"character": "res://assets/images/stage_0/default.png",
+			"emotion_expected": "happy",
+			"failure_text": "흠, 그게 아니지.",
+		},
+		
+		{
+			"text": "나처럼 슬픈 표정을 지어줘!",
+			"background": "res://assets/images/shared/background_intro.png",
+			"character": "res://assets/images/stage_0/sad.png",
+			"timer": true
+		},
+		
+		{
+			"text": "[표정을 응시한다.]",
+			"background": "res://assets/images/shared/background_intro.png",
+			"character": "res://assets/images/stage_0/default.png",
+			"emotion_expected": "sad",
+			"failure_text": "흠, 그게 아니지."
+		},
+		
+		{
+			"text": "자, 이제 내 이야기를 들려줄게!",
+			"background": "res://assets/images/shared/background_intro.png",
+			"character": "res://assets/images/stage_0/happy.png"
+		},
+		
+		{
+			"text": "어제 요 앞에서 고양이가 차에 치였지 뭐야... 가엾은 것...",
+			"background": "res://assets/images/shared/background_intro.png",
+			"character": "res://assets/images/stage_0/sad.png",
+			"timer": true
+		},
+		
+		{
+			"text": "[표정을 응시한다.]",
+			"background": "res://assets/images/shared/background_intro.png",
+			"character": "res://assets/images/stage_0/default.png",
+			"emotion_expected": "sad",
+			"failure_text": " 내 얘기애 귀 기울이지 않는구나... 걱정이 앞서는 군..."
+		},
+		
+		{
+			"text": "그런데 구조를 해서 얼마나 다행인지 몰라",
+			"background": "res://assets/images/shared/background_intro.png",
+			"character": "res://assets/images/stage_0/happy.png",
+			"timer": true
+		},
+		
+		{
+			"text": "[표정을 응시한다.]",
+			"background": "res://assets/images/shared/background_intro.png",
+			"character": "res://assets/images/stage_0/default.png",
+			"emotion_expected": "happy",
+			"failure_text": "다시, 다시! 한 번 천천히... 내가 뭐라고 했는지 생각해 봐..."
+		},
+		
+		{
+			"text": "대충 알겠지? 아마 큰 문제는 없을 거야.",
+			"background": "res://assets/images/shared/background_intro.png",
+			"character": "res://assets/images/stage_0/happy.png"
+		},
+		
+		{
+			"text": "그럼 운동 열심히 하고! 난 이만 수건 정리하러 가볼게~",
+			"background": "res://assets/images/shared/background_intro.png",
+			"character": "res://assets/images/stage_0/happy.png"
+		}
+	]
+}

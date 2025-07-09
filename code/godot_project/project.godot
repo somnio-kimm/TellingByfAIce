@@ -1,0 +1,27 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="fAIce"
+run/main_scene="uid://dro0tcsr7e0l5"
+config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="res://images/icon.svg"
+
+[autoload]
+
+camera_display="*res://scenes/shared/camera_display.tscn"
+heart="*res://scenes/story_mode/heart.tscn"
+
+[display]
+
+window/size/viewport_width=1440
+window/size/viewport_height=900
+window/autoload_on_startup=false

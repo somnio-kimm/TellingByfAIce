@@ -1,0 +1,152 @@
+[gd_scene load_steps=3 format=3 uid="uid://bamykjuhk5pd1"]
+
+[ext_resource type="Script" uid="uid://0efa2j5tr05l" path="res://scripts/credits.gd" id="1_tp31d"]
+[ext_resource type="AudioStream" uid="uid://gq6o7xx2gch6" path="res://assets/sounds/credits.ogg" id="2_b8541"]
+
+[node name="credits" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tp31d")
+
+[node name="scroll_box" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="labels" type="VBoxContainer" parent="scroll_box"]
+custom_minimum_size = Vector2(100, 200)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1
+
+[node name="title_1" type="Label" parent="scroll_box/labels"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "
+
+Title"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="content_1" type="Label" parent="scroll_box/labels"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "
+TellingByfAIce
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="title_2" type="Label" parent="scroll_box/labels"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "
+Game Design"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="content_2" type="Label" parent="scroll_box/labels"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "
+Woogeon Jeong
+Hyeongcheol Kim
+Jooneon Kim
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="title_3" type="Label" parent="scroll_box/labels"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "
+Programming"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="content_3" type="Label" parent="scroll_box/labels"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "
+Frontend (Godot)
+Juneon Kim
+Soo Min Kimm
+
+Backend (Python)
+Soo Min Kimm
+Shinyeong Yoon
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="title_4" type="Label" parent="scroll_box/labels"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "
+AI Integration"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="content_4" type="Label" parent="scroll_box/labels"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "
+Emotion Detection
+Powered by PyTorch, YOLO, ResNet
+
+Prompt Engineering
+Powered by ChatGPT"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="title_5" type="Label" parent="scroll_box/labels"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "
+Assets"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="content_5" type="Label" parent="scroll_box/labels"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "
+Art
+ChatGPT
+
+Music
+Soo Min Kimm"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="title_6" type="Label" parent="scroll_box/labels"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "
+License"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="content_6" type="Label" parent="scroll_box/labels"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "
+This game is for educational / personal / portfolio use.
+All assets are used under their respective licenses.
+No chickens were harmed in the making of this game.
+
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="bgm_player" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_b8541")
+volume_db = 6.0

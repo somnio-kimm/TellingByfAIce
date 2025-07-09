@@ -1,0 +1,14 @@
+{
+	"bgm": "res://assets/sounds/intro.ogg",
+	"dialogue": [
+		{
+			"text": "(뭔가... 독...특한 헬스장인가 보다...)",
+			"background": "res://assets/images/shared/background_main.png"
+		},
+		
+		{
+			"text": "(나가야 하나...?)",
+			"background": "res://assets/images/shared/background_main.png"
+		}
+	]
+}

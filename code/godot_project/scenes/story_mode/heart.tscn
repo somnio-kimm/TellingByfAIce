@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://bs0nrdk0b2mj1"]
+
+[ext_resource type="Script" uid="uid://dn51kiy6s75d4" path="res://scripts/heart.gd" id="1_v4rw2"]
+[ext_resource type="Texture2D" uid="uid://c1626r2cpnxu3" path="res://assets/images/shared/chicken_breast.png" id="2_r34uj"]
+
+[node name="heart" type="Control"]
+layout_direction = 3
+layout_mode = 3
+anchors_preset = 0
+scale = Vector2(0.133665, 0.136934)
+script = ExtResource("1_v4rw2")
+
+[node name="hearts_container" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 19.72
+anchor_bottom = 17.998
+offset_left = -59.0
+offset_top = -155.0
+offset_right = 188.2
+offset_bottom = 149.08
+
+[node name="heart_0" type="TextureRect" parent="hearts_container"]
+layout_mode = 2
+texture = ExtResource("2_r34uj")
+
+[node name="heart_1" type="TextureRect" parent="hearts_container"]
+layout_mode = 2
+texture = ExtResource("2_r34uj")
+
+[node name="heart_2" type="TextureRect" parent="hearts_container"]
+layout_mode = 2
+texture = ExtResource("2_r34uj")
+
+[node name="heart_3" type="TextureRect" parent="hearts_container"]
+layout_mode = 2
+texture = ExtResource("2_r34uj")

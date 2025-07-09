@@ -1,0 +1,39 @@
+{
+	"bgm": "res://assets/sounds/intro.ogg",
+	"dialogue": [
+		{
+			"text": "'이름 모를 트레이너는 화를 내며 헬스장을 뛰쳐나갔다'",
+			"background": "res://assets/images/shared/background_main.png"
+		},
+		
+		{
+			"text": "' 도대체.. 정상적인 사람은 없는 건가...?'",
+			"background": "res://assets/images/shared/background_main.png"
+		},
+		
+		{
+			"text": "후우... 하아...",
+			"background": "res://assets/images/shared/background_main.png"
+		},
+		
+		{
+			"text": "(...? 무슨 소리지?)",
+			"background": "res://assets/images/shared/background_main.png"
+		},
+		
+		{
+			"text": "하아... 너무 좋아.",
+			"background": "res://assets/images/shared/background_main.png"
+		},
+		
+		{
+			"text": "하... 하나... 하나만 더.",
+			"background": "res://assets/images/shared/background_main.png"
+		},
+		
+		{
+			"text": "(나가야겠다! 이곳은 위험해!)",
+			"background": "res://assets/images/shared/background_main.png"
+		}
+	]
+}
